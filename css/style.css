@@ -1,0 +1,48 @@
+h1{
+    font-size: 3rem;
+}
+
+nav{
+    height: 30vh;
+}
+
+main{
+    height: 60vh;
+    background-color: bisque;
+}
+
+.header{
+background-color: beige;
+}
+
+.row{
+    justify-content: space-evenly;
+
+}
+
+
+.color-boton{
+    color: white;
+    background-color: black;
+}
+
+.btn:hover{
+    color: white;
+    background-color: grey;
+}
+
+.color-buscar{
+    background-color: black;
+    color: white;
+}
+
+.navbar{
+    padding: 3rem;
+    justify-content: space-around;
+}
+
+
+
+.footer-fondo{
+    background-color: beige;
+}
