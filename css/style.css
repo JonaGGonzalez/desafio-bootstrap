@@ -6,20 +6,25 @@ nav{
     height: 30vh;
 }
 
+.header{
+    background-color: beige;
+    }
+    
+
 main{
     height: 60vh;
     background-color: bisque;
 }
 
-.header{
-background-color: beige;
-}
 
 .row{
     justify-content: space-evenly;
 
 }
 
+.card{
+    background-color: aquamarine
+}
 
 .color-boton{
     color: white;
@@ -38,7 +43,7 @@ background-color: beige;
 
 .navbar{
     padding: 3rem;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 
