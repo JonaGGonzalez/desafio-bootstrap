@@ -32,7 +32,7 @@ h1 {
 
 
 .card{
-    background-color: aquamarine
+    background-color: antiquewhite  
 
 }
 
@@ -48,4 +48,12 @@ h1 {
   
 }
 
+.googlemaps{
+    
+    width: 500px;
+    height: 500px;
+    /* NUEVO */
+   margin-top: auto;
+   margin-inline-start: 33%;
+}
 
