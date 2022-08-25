@@ -16,6 +16,13 @@ main{
     background-color: bisque;
 }
 
+@media (max-width:650px){
+    main{
+        min-height: 180vh;
+    
+    }
+    
+}
 
 .row{
     justify-content: space-evenly;
@@ -31,19 +38,13 @@ main{
     background-color: black;
 }
 
-.btn:hover{
-    color: white;
-    background-color: grey;
-}
 
-.color-buscar{
-    background-color: black;
-    color: white;
-}
+
+
 
 .navbar{
     padding: 3rem;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 
