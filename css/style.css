@@ -1,59 +1,51 @@
-h1{
-    font-size: 3rem;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-nav{
-    height: 30vh;
-}
-
-.header{
-    background-color: beige;
-    }
-    
-
-main{
-    height: 60vh;
+/* esto acomoda el footer */
+.body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
     background-color: bisque;
 }
 
-@media (max-width:650px){
-    main{
-        min-height: 180vh;
-    
-    }
-    
+h1 {
+    font-size: 3rem;
 }
 
-.row{
-    justify-content: space-evenly;
 
+.header {
+    background-color: beige;
 }
+/* esto acomoda el footer cuando hay poco contenido en el main */
+.footer {
+    margin-top: auto;
+    margin-bottom: 3vh;
+}
+
+.main {
+    min-height:100% ;
+    background-color: bisque;
+}
+
 
 .card{
     background-color: aquamarine
+
 }
 
-.color-boton{
+
+.color-boton {
     color: white;
     background-color: black;
 }
 
+.carousel-item img{
+    max-height: 70vh;
 
-
-
-
-.navbar{
-    padding: 3rem;
-    justify-content: space-around;
+  
 }
 
 
-
-.footer-fondo{
-    background-color: beige;
-}
-
-.ancho-carousel{
-    width: 40vw;
-    margin: 0 auto;
-}
